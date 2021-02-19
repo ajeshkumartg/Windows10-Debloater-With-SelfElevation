@@ -1,4 +1,6 @@
-# Debloat Windows 10
+# Debloat Windows 10 With UAC
+
+Thnaks to ❤ [W4RHAWK](https://github.com/W4RH4WK) for the original version.
 
 This project collects PowerShell scripts which help to *debloat* Windows 10,
 tweak common settings and install basic software components.
@@ -21,17 +23,7 @@ work after future updates since I cannot predict what Microsoft will do next.
 
 ## Interactivity
 
-The scripts are designed to run without any user interaction. Modify them
-beforehand. If you want a more interactive approach check out
-[DisableWinTracking](https://github.com/10se1ucgo/DisableWinTracking) from
-[10se1ucgo](https://github.com/10se1ucgo).
 
-## Download Latest Version
-
-Code located in the `master` branch is always considered under development, but
-you'll probably want the most recent version anyway.
-
-- [Download [zip]](https://github.com/W4RH4WK/Debloat-Windows-10/archive/master.zip)
 
 ## Execution
 
@@ -47,14 +39,13 @@ Unblock PowerShell scripts and modules within this directory:
 
 Scripts can be run individually, pick what you need.
 
-1. Install all available updates for your system.
-2. Edit the scripts to fit your need.
-3. Run the scripts you want to apply from a PowerShell with administrator privileges (Explorer
-   `Files > Open Windows PowerShell > Open Windows PowerShell as
-   administrator`)
-4. `PS > Restart-Computer`
-5. Run `disable-windows-defender.ps1` one more time if you ran it in step 3
-6. `PS > Restart-Computer`
+1. Go to the scripts folder.
+2. Run the Scripts one-by-one..(as you need).
+3. Click allow on the prompt..
+4. And wait.
+
+
+
 
 ## Start menu
 
@@ -71,6 +62,8 @@ is Back], but stop using that shit.
 [Start is Back]: <http://startisback.com/>
 
 ## Known Issues
+
+None...
 
 ### Start menu Search
 
@@ -124,6 +117,7 @@ send me a pull request.
 
 ### Thanks To
 
+- [W4RH4WK](https://github.com/W4RH4WK)
 - [10se1ucgo](https://github.com/10se1ucgo)
 - [Plumebit](https://github.com/Plumebit)
 - [aramboi](https://github.com/aramboi)
