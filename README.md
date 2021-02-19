@@ -1,7 +1,7 @@
 # Debloat Windows 10 With Self-Elevation
 
-Thanks to ❤ [W4RHAWK](https://github.com/W4RH4WK) for the original version.
-Thanks to ❤ [Sycnex](https://github.com/Sycnex) for the additional scripts.
+- Thanks to ❤ [W4RHAWK](https://github.com/W4RH4WK) for the original version.
+- Thanks to ❤ [Sycnex](https://github.com/Sycnex) for the additional scripts.
 
 This project collects PowerShell scripts which help to *debloat* Windows 10,
 tweak common settings and install basic software components.
