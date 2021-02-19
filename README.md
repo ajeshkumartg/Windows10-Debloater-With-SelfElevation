@@ -6,6 +6,18 @@
 This project collects PowerShell scripts which help to *debloat* Windows 10,
 tweak common settings and install basic software components.
 
+## Usage
+
+Scripts can be run individually, pick what you need.
+
+1. Download Zip and Extract it somewhere.
+2. Run powershell(as Administrator) 
+3. Type in this command Set-ExecutionPolicy Unrestricted -Force
+4. Go to the scripts folder.
+5. Run the Scripts one-by-one..(as you need).
+6. Click allow on the prompt..
+7. And wait.
+
 I test these scripts on a Windows 10 Professional 64-Bit (English) virtual
 machine. Please let me know if you encounter any issues. Home Edition and
 different languages are not supported. These scripts are intended for
@@ -21,31 +33,6 @@ you intend to use your system for gaming, adjust the scripts accordingly.
 installation (including Windows Updates). Test everything after running them
 before doing anything else. Also, there is no guarantee that everything will
 work after future updates since I cannot predict what Microsoft will do next.
-
-## Interactivity
-
-
-
-## Execution
-
-Enable execution of PowerShell scripts:
-
-    PS> Set-ExecutionPolicy Unrestricted -Scope CurrentUser
-
-Unblock PowerShell scripts and modules within this directory:
-
-    PS> ls -Recurse *.ps*1 | Unblock-File
-
-## Usage
-
-Scripts can be run individually, pick what you need.
-
-1. Go to the scripts folder.
-2. Run the Scripts one-by-one..(as you need).
-3. Click allow on the prompt..
-4. And wait.
-
-
 
 
 ## Start menu
